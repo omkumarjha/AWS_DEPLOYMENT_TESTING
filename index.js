@@ -8,7 +8,7 @@ app.use(express.json())
 const PORT = process.env.PORT || 3000
 
 app.get("/", (_, res) => {
-  return res.status(200).json({ message: "Hello, World updated again!" })
+  return res.status(200).json({ message: "Hello, World updated again 2!" })
 })
 
 app.listen(PORT, () => {
